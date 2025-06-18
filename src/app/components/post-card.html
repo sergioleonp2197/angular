@@ -1,0 +1,8 @@
+<div class="card h-100">
+  <div class="card-body">
+    <h5>{{ post.title }}</h5>
+    <p class="text-muted">{{ post.excerpt }}</p>
+    <p><small class="text-muted">By {{ post.author }} on {{ post.createdAt | date }}</small></p>
+    <a [routerLink]="['/post', post.id]" class="btn btn-sm btn-outline-primary">Leer más</a>
+  </div>
+</div>
