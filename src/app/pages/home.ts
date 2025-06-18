@@ -10,7 +10,7 @@ import { CommentService } from '../services/comment.service';
 @Component({
   selector: 'app-home',
   standalone:true,
-  imports: [PostListComponent,RouterModule,FormsModule,CommonModule],
+  imports: [RouterModule,FormsModule,CommonModule],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
